@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve webhook-forwarder
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory="[redacted]"
+Environment="[redacted]"
+ExecStart="[redacted]" --ini webhook-forwarder.ini
+
+[Install]
+WantedBy=multi-user.target

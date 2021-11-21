@@ -1,0 +1,8 @@
+Surface level documentation of how things are done 
+--------------------------------------------------------------
+setup a nanode 
+--------------------------------------------------------------
+acme.sh to set up automatic certificate renewal using dns provider api based authentication
+--------------------------------------------------------------
+using flask to do api stuff, api key is "[redacted]"
+--------------------------------------------------------------

@@ -1,0 +1,18 @@
+{
+  "cloudflare": [
+    {
+      "authentication": {
+          "api_token": "[redacted]", 
+          "api_key": {
+              "api_key": "api_key_here",
+              "account_email": "your_email_here"
+	        }
+      },
+      "zone_id": "[redacted]",
+      "subdomains": [
+        "webhook-forwarder"
+      ],
+      "proxied": false
+    }
+  ]
+}
